@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+  }
+  body{
+    font-size: 15px;
+    background: #f9f9f9;
+  }
+  .container{
+    max-width: 310px;
+    width: 100%;
+    height: auto;
+    margin:40px auto;
+  }
+  h1{
+    text-align: center;
+    font-family:sans-serif;
+  }
+  .container .logo img{
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin:0 auto 25px;
+  }
+  .container .frm{
+    margin-bottom: 15px;
+    background: #fff;
+    border: 3px solid #d8dee2;
+    padding: 30px;
+    border-radius: 5px;
+  }
+  .container.frm .form-group{
+    margin-bottom: 15px;
+    position: relative;
+  }
+  .container .frm .form-group label{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #24292e;
+  }
+  .container .frm .form-group .form-control{
+    width: 100%;
+    background: #fff;
+    border: 1px solid #d1d5da;
+    box-shadow: inset 0 1px 2px rgba(27,31,35,0.74);
+    border-radius: 3px;
+    color: #24292e;
+    padding: 6px 8px;
+    line-height: 20px;
+    min-height: 34px;
+  }
+   .form-group .fgt{
+    text-align: center;
+    padding:5px;
+    position: absolute;
+    font-size: 15px;
+    color:#0366d6;
+  }
+  .container .frm .form-group .form-control:focus{
+    border-color: #2188ff;
+    box-shadow: inset 0 1px 2px rgba(27,3135,0.075),0 0 0 2.5px rgba(3,102,214,0.3);
+  }
+  .container .frm .login_btn{
+    margin-top: 20px;
+    background: green;
+    border: 1px solid rgba(27,31,35,.2);
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 2px;
+  }
+  .container .frm .login_btn:hover{
+    background: #279f43;
+
+  }
+  .container .create_act{
+    border:1px solid#d8dee2;
+    border-radius: 5px;
+    padding: 15px 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .container.create_act a:hover{
+    text-decoration: underline;
+  }
+  .container .footer{
+    padding: 25px 0;
+    text-align: center;
+  }
+  .container .footer ul li {
+    display: inline-block;
+  }
+  .container .footer ul li a{
+    font-size: 12px;
+    margin-right: 15px;
+  }
+  .container .footer ul li a:last-child a{
+      color:blue;
+  }
+  .container .footer ul li a:hover{
+    color: #0366d6;
+    text-decoration: underline;
+  }
